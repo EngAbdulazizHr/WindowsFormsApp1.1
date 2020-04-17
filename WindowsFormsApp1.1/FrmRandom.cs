@@ -36,5 +36,10 @@ namespace MyGUI._1
         {
             BtnRandomNo.Text = Convert.ToString(y.Next(1, 100));
         }
+
+        private void FrmRandom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
