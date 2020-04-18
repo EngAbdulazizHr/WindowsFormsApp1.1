@@ -113,6 +113,7 @@
             this.BtnGenerateEAF.TabIndex = 1;
             this.BtnGenerateEAF.Text = "Generate";
             this.BtnGenerateEAF.UseVisualStyleBackColor = false;
+            this.BtnGenerateEAF.Click += new System.EventHandler(this.BtnGenerateEAF_Click);
             // 
             // btnResetEAF
             // 
@@ -123,6 +124,7 @@
             this.btnResetEAF.TabIndex = 1;
             this.btnResetEAF.Text = "Reset";
             this.btnResetEAF.UseVisualStyleBackColor = false;
+            this.btnResetEAF.Click += new System.EventHandler(this.btnResetEAF_Click);
             // 
             // cmbAAF
             // 

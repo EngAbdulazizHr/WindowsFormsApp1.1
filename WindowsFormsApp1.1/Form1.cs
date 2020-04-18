@@ -134,9 +134,10 @@ namespace MyGUI._1
         }
 
         private void BtnPb2_Click(object sender, EventArgs e)
-        {
-            //FrmImage2 frm = new FrmImage2();
-            //frm.ShowDialog();
+        { /*
+            FrmImage2 frm = new FrmImage2();
+            frm.ShowDialog();
+            */
         }
 
         private void BtnMethods_Click(object sender, EventArgs e)

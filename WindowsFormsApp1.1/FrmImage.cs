@@ -39,7 +39,7 @@ namespace MyGUI
         private void FrmImage_Load(object sender, EventArgs e)
         {
             _assambly = Assembly.GetExecutingAssembly();
-            _imageStream = _assambly.GetManifestResourceStream("MyGUI.res.KAU_Logo.jpg");
+            _imageStream = _assambly.GetManifestResourceStream("MyGUI.res.EngineeringNewPic.jpg");
 
         }
 

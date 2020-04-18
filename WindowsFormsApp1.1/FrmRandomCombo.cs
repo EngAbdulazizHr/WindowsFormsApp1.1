@@ -42,5 +42,24 @@ namespace MyGUI._1
             radioLessAAF.Checked = false;
             radioGraterAAF.Checked = false;
         }
+
+        private void BtnGenerateEAF_Click(object sender, EventArgs e)
+        {
+            cmbEAF.ResetText();
+            cmbEAF.Items.Clear();
+            Random r = new Random();
+            for (int i = 0; i < r.Next(1, 51); i++)
+            {
+                cmbEAF.Items.Add(r.Next(100, 999));
+            }
+        }
+
+        private void btnResetEAF_Click(object sender, EventArgs e)
+        {
+            cmbEAF.ResetText();
+            cmbEAF.Items.Clear();
+            radioLessEAF.Checked = false;
+            radioGraterEAF.Checked = false;
+        }
     }
 }
